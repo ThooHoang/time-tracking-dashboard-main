@@ -1,102 +1,126 @@
 [
   {
     "title": "Work",
+    
     "timeframes": {
       "daily": {
         "current": 5,
+        "period": "day",
         "previous": 7
       },
       "weekly": {
         "current": 32,
+        "period": "week",
         "previous": 36
       },
       "monthly": {
         "current": 103,
+        "period": "month",
         "previous": 128
       }
     }
   },
   {
     "title": "Play",
+    
     "timeframes": {
       "daily": {
         "current": 1,
+        "period": "day",
         "previous": 2
       },
       "weekly": {
         "current": 10,
+        "period": "week",
         "previous": 8
       },
       "monthly": {
         "current": 23,
+        "period": "month",
         "previous": 29
       }
     }
   },
   {
     "title": "Study",
+    
     "timeframes": {
       "daily": {
         "current": 0,
+        "period": "day",
         "previous": 1
       },
       "weekly": {
         "current": 4,
+        "period": "week",
         "previous": 7
       },
       "monthly": {
         "current": 13,
+        "period": "month",
         "previous": 19
       }
     }
   },
   {
     "title": "Exercise",
+    
     "timeframes": {
       "daily": {
         "current": 1,
+        "period": "day",
         "previous": 1
       },
       "weekly": {
         "current": 4,
+        "period": "week",
         "previous": 5
       },
       "monthly": {
         "current": 11,
+        "period": "month",
         "previous": 18
       }
     }
   },
   {
     "title": "Social",
+    
     "timeframes": {
       "daily": {
         "current": 1,
+        "period": "day",
         "previous": 3
       },
       "weekly": {
         "current": 5,
+        "period": "week",
         "previous": 10
       },
       "monthly": {
         "current": 21,
+        "period": "month",
         "previous": 23
       }
     }
   },
   {
-    "title": "Self Care",
+    "title": "SelfCare",
+    
     "timeframes": {
       "daily": {
         "current": 0,
+        "period": "day",
         "previous": 1
       },
       "weekly": {
         "current": 2,
+        "period": "week",
         "previous": 2
       },
       "monthly": {
         "current": 7,
+        "period": "month",
         "previous": 11
       }
     }
