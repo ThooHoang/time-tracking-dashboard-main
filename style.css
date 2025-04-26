@@ -24,12 +24,14 @@
     
 }
 
+
+
 a {
     text-decoration: none;
     color: var(--Purple-500);
 }
 
-a:active {
+a:focus {
     color: #FFFFFF;
 }
 
@@ -41,11 +43,15 @@ body {
     background-color: var(--Navy-950);
 }
 
+
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2rem;
+
 }
 
 .dashboard {
@@ -147,7 +153,7 @@ main {
     background-color: var(--Purple-700);
     background-image: url(./images/icon-social.svg);
 }
-#Self Care {
+#SelfCare {
     background-color: var(--Yellow-300);
     background-image: url(./images/icon-self-care.svg);
 }
@@ -156,7 +162,7 @@ main {
     margin-top: 2.8rem;
     background-color: var(--Navy-900);
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -194,4 +200,33 @@ main {
 .card-text div img {
     cursor: pointer;
     margin-left: 3rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 815px) {
+    
+
+    .dashboard {
+        flex-direction: column;
+
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:655px) {
+    
+    .dashboard {
+        width: 100%;
+        margin: auto;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
